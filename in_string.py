@@ -1,6 +1,18 @@
 def check_vowels():
-    nombre = input(" > ")  # Mismo formato que el ejemplo
-    nombre_minuscula = nombre.lower()
-    vocales = ['a', 'e', 'i', 'o', 'u']
-    for vocal in vocales:
-        print(f"Contiene {vocal}: {vocal in nombre_minuscula}")
+    # Código a implementar utilizando input.
+    name = input("ingrese un nombre:").lower()
+    print(f"Contiene a: {'a' in name}")
+    print(f"Contiene e: {'e' in name}")
+    print(f"Contiene i: {'i' in name}")
+    print(f"Contiene o: {'o' in name}")
+    print(f"Contiene u: {'u' in name}")
+
+check_vowels()    
+
+
+
+
+
+# Para verificar este ejercicio ejecutar el comando
+# `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py`
+

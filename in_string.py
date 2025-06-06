@@ -7,7 +7,7 @@ def check_vowels():
     print(f"Contiene o: {'o' in name}")
     print(f"Contiene u: {'u' in name}")
 
-check_vowels()    
+# check_vowels()    
 
 
 
